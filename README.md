@@ -1,10 +1,12 @@
 # PointDCI: Quantifying Multi-scale Structural Significance in 3D Point Clouds
 
 
-`pointDCI` is a research monorepo for our point-cloud detail contribution analysis pipeline. The repository packages three connected stages in one place: upstream feature extraction, downstream DCI descriptor generation, and weighted sampling experiments built on top of the DCI outputs.
+`PointDCI` is a research monorepo for our point-cloud detail contribution analysis pipeline. The repository packages three connected stages in one place: upstream feature extraction, downstream DCI descriptor generation, and weighted sampling experiments built on top of the DCI outputs.
 
 Current paper title: `PointDCI: Quantifying Multi-scale Structural Significance in 3D Point Clouds`
+
 Authors: Ruifeng Zhao, Yubo Men, Yongmei Liu, Chaoguang Men, Jin Li, Zeyu Tian
+
 Status: submitted to `The Visual Computer`
 
 ## Why This Repo Exists
