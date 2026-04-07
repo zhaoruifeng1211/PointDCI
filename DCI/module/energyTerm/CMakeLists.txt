@@ -1,0 +1,5 @@
+file(GLOB_RECURSE srcs CONFIGURE_DEPENDS src/*.cpp include/*.h)
+add_library(energyTerm STATIC ${srcs})
+find_package(CGAL REQUIRED)
+target_include_directories(energyTerm  PUBLIC include ${CGAL_INCLUDE_DIRS})
+target_link_libraries(energyTerm PUBLIC ${CGAL_LIBRARIES} basic)

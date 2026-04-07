@@ -1,0 +1,9 @@
+{
+  "inputPath": {
+    "pointcloudsPath": "examples/minimal/example_input.ply",
+    "componentPath": "examples/minimal/components.txt",
+    "segmentsPath": "examples/minimal/segments.txt",
+    "variationPath": "examples/minimal/variation.txt",
+    "scalePath": "examples/minimal/scales.txt"
+  }
+}

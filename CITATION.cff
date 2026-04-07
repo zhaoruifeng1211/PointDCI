@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use pointDCI, please cite the repository and the exact release or commit you used."
+title: "pointDCI"
+type: software
+abstract: "Research code for point-cloud detail contribution analysis, including preprocessing, DCI descriptor generation, and weighted sampling experiments."
+repository-code: "https://github.com/zhaoruifeng1211/PointDCI"
+license: "SEE LICENSES.md"
+version: "v0.1.0"
+date-released: 2026-04-07
+authors:
+  - family-names: Zhao
+    given-names: Ruifeng
+  - family-names: Men
+    given-names: Yubo
+  - family-names: Liu
+    given-names: Yongmei
+  - family-names: Men
+    given-names: Chaoguang
+  - family-names: Li
+    given-names: Jin
+  - family-names: Tian
+    given-names: Zeyu
+keywords:
+  - point cloud
+  - geometry processing
+  - detail contribution analysis
+  - weighted sampling
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "PointDCI: Quantifying Multi-scale Structural Significance in 3D Point Clouds"
+  authors:
+    - family-names: Zhao
+      given-names: Ruifeng
+    - family-names: Men
+      given-names: Yubo
+    - family-names: Liu
+      given-names: Yongmei
+    - family-names: Men
+      given-names: Chaoguang
+    - family-names: Li
+      given-names: Jin
+    - family-names: Tian
+      given-names: Zeyu
+  journal: "Submitted to The Visual Computer"
+  year: 2026
+  repository-code: "https://github.com/zhaoruifeng1211/PointDCI"
+  notes: "Citation metadata will be updated promptly as the paper status changes."

@@ -1,0 +1,16 @@
+build/
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.log
+output*.ply
+*_full.ply
+*_downsampled.ply
+*_stats.txt
+!README.md
+!LICENSE
+!CMakeLists.txt
+!tools/c2m_stats.py
+*:Zone.Identifier

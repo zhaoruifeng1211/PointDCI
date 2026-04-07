@@ -1,0 +1,5 @@
+find_package(OpenMP REQUIRED)
+find_package(Eigen3 REQUIRED)
+add_executable(improved main.cpp globInfo.h globInfo.cpp)
+target_include_directories(improved PRIVATE ../module/3rd/cxxopts-2.2.1/include)
+target_link_libraries(improved PUBLIC basic energyTerm OpenMP::OpenMP_CXX Eigen3::Eigen)

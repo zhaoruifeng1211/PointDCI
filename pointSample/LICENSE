@@ -1,0 +1,7 @@
+pointSample is distributed under the GNU General Public License v3.0 or later.
+
+For the full license text used by the `DCI` codebase in this repository, see:
+
+- ../DCI/LICENSE
+
+If this directory is redistributed outside the monorepo, include the full GPL-3.0-or-later license text alongside it.

@@ -1,0 +1,6 @@
+file(GLOB_RECURSE srcs CONFIGURE_DEPENDS src/*.cpp include/*.h)
+add_library(optimization STATIC ${srcs})
+#include(../cmake/FindGUROBI.cmake)
+#target_compile_definitions(optimization PUBLIC HAS_GUROBI)
+target_include_directories(optimization PUBLIC include)
+target_link_libraries(optimization PUBLIC basic energyTerm)

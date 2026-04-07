@@ -1,0 +1,39 @@
+{
+    "processLevel": "0",
+    "inputPath":{
+        "pointcloudsPath":"data/hel_2/2.ply",
+        "componentPath":"data/hel_2/data_2_comp.txt",
+        "featuresPath":"data/hel_2/data_2_features.txt",
+        "clustersPath":"",
+        "segmentsPath":"data/hel_2/data_2_seg.txt",
+        "stabilityPath":"empty",
+        "variationPath":"data/hel_2/data_2_geometric_variation.txt",
+        "scalePath":"data/hel_2/data_2_scales.txt",
+        "pointsLod":"empty"
+    },
+    "filePath": {
+        "energyDataTermPath": "_3_componentsEnergy.txt",
+        "stabilityValuesPath": "_4-1_stabilityValues.txt",
+        "clusterResultPath": "_4-2_clusterResult.txt",
+        "normalDeviationsPath": "_4-1_normalDeviation.txt",
+        "curvatureDeviationsPath": "_4-1_curvatureDeviation.txt",
+        "componentsEnergyPath": "_4-3_componentsEnergy.json",
+        "levelComponents": "_4-3_levelComponents.json",
+        "componentLevelsNumber":"_4-1_compLevelsNumber.json"
+    },
+    "parameters": {
+        "lamda_normal": 1.0,
+        "lamda_curvature": 0.5,
+        "clusterNumber": 4,
+        "componentThreshold": 200,
+        "basicThreshold":0.6
+    },
+    "lambda": {
+        "lambda_coverage": 1.0,
+        "lambda_compact": 1.0,
+        "lambda_persistence": 1.0,
+        "lambda_level_0": 0.0,
+        "lambda_level_1": 0.0,
+        "lambda_level_2": 1.0
+    }
+}

@@ -1,0 +1,9 @@
+*:Zone.Identifier
+DCI/tools/__pycache__/*
+*.pyc
+.vscode/
+**/__pycache__/
+build/
+build-*/
+DCI/examples/minimal/example_input/
+*.ply

@@ -1,0 +1,8 @@
+find_package(OpenMP REQUIRED)
+find_package(Eigen3 REQUIRED)
+find_package(OpenCV REQUIRED)
+message(STATUS "OpenCV_LIBS = ${OpenCV_LIBS}")
+file(GLOB_RECURSE srcs CONFIGURE_DEPENDS src/*.cpp include/*.h)
+add_executable(generate ${srcs} ../../src/globInfo.cpp ../../src/globInfo.h)
+target_include_directories(generate PRIVATE ../3rd/cxxopts-2.2.1/include ${OpenCV_INCLUDE_DIRS})
+target_link_libraries(generate PUBLIC basic energyTerm OpenMP::OpenMP_CXX Eigen3::Eigen ${OpenCV_LIBS})
