@@ -1,14 +1,12 @@
 # PointDCI: Quantifying Multi-scale Structural Significance in 3D Point Clouds
 
-<div align="center">
-
-<p>
+<p align="center">
   <a href="./CITATION.cff"><img alt="Citation" src="https://img.shields.io/badge/citation-CFF-orange"></a>
   <a href="./CONTRIBUTING.md"><img alt="Contributing" src="https://img.shields.io/badge/contributions-welcome-2ea44f"></a>
   <a href="./THIRD_PARTY.md"><img alt="Third Party" src="https://img.shields.io/badge/third--party-documented-4c6ef5"></a>
 </p>
 
-<p>
+<p align="center">
   Research monorepo for the paper code of <strong>PointDCI</strong>
 </p>
 
